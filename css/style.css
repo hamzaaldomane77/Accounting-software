@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+body{
+    background: linear-gradient(to right , darkblue , rgb(38, 100, 100)) ;
+}
+
+.crud{
+    color: white;
+    width: 70%;
+    margin: auto;
+}
+
+table{
+    width: 100%;
+}
+
+th,td{
+    width: 20%;
+    padding: 15px 0px;
+}
+

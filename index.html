@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="crud">
+        <!-- قسم ادخال البيانات -->
+        <div class="inputs row py-5 justify-content-center">
+            <input type="text" class="product col-5" placeholder="enter your product">
+            <input type="number" class="price col-5" placeholder="enter the price">
+            <p class="total col-2">the price</p>
+        </div>
+        <!-- قسم الازرار -->
+        <div class="btns row justify-content-around">
+            <button class="create btn btn-primary col-5">create</button>
+            <button class="delete-all btn btn-danger col-5">delete all</button>
+        </div>
+
+        <!-- قسم قراءة البيانات -->
+        <div class="outputs py-5 ">
+            <table>
+                <!-- راس الجدول او عنواين الجدول -->
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>product name</th>
+                        <th>price</th>
+                        <th>total</th>
+                        <th>update</th>
+                        <th>delete</th>
+                    </tr>
+                </thead>
+
+                <!-- جسم الجدول -->
+                <tbody class="tbody">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
